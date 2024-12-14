@@ -12,7 +12,7 @@ pub struct Password {
 }
 
 impl Password {
-    pub fn new(uppercase: bool, digits: bool, symbols: bool) -> Self {
+    pub fn new(uppercase: bool, symbols: bool, digits: bool) -> Self {
         Password {
             uppercase,
             digits,
